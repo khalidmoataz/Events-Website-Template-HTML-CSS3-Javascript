@@ -1,0 +1,1028 @@
+/*
+
+- Template Name: PlantasticEvents
+- Author: KhalidMoataz
+- Author URI: KhalidMoataz
+- Description:
+- Version: 1.0
+*/
+
+/* -----------------------------
+Designed and Developed By "KhalidMoataz"
+/* -----------------------------*/
+
+/* ----------------------------------------------------
+OUR CSS INDEX
+
+/*----------- -01- START OF BASIC INSATLLATION ----------*/
+/*----------- -02- HEADER SECTION ----------*/
+/*----------- -03- SPEAKERS SECTION ----------*/
+/*----------- -04- EVENTS SECTION ----------*/
+/*----------- -05- SUBSCRIBE SECTION ----------*/
+/*----------- -06- SPONSORS SECTION ----------*/
+/*----------- -07- TICKETS SECTION ----------*/
+/*----------- -08- VIDEOS SECTION ----------*/
+/*----------- -09- BLOG SECTION ----------*/
+/*----------- -10- COUNTER SECTION ----------*/
+/*----------- -11- GALLERY SECTION ----------*/
+/*----------- -12- TESTMONIAL SECTION ----------*/
+/*----------- -13- CONTACT SECTION ----------*/
+
+/* ----------------------------------------------------*/
+
+/*----------- -01- START OF BASIC INSATLLATION ----------*/
+#particles-js
+{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 30%;
+    z-index: 0;
+}
+.padding-0 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.padding-1 {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.padding60 {
+    padding: 60px 0px;
+}
+.padding20 {
+    padding: 20px 0px;
+}
+.padding100
+{
+	padding: 213px 0px;
+}
+button
+{
+    width: 0;
+}
+h4
+{
+	font-family: "Poppins",sans-serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: rgba(124, 1, 82, 1);
+}
+h1 {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    color: #252525;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.owl-dots {
+    margin: 0 auto
+}
+
+.owl-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    background: #D94453;
+    opacity: 0.6;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.owl-dot.active {
+    background: #89216B;
+    opacity: 1
+}
+
+.title-name {
+    position: absolute;
+    left: 0;
+    transform: translate(0%, -13%);
+    opacity: 0.04;
+    right: 0;
+}
+
+.title-name h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+
+}
+
+h1:after {
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: 90%;
+    right: 50%;
+    background: #252525;
+    opacity: 0.6;
+    width: 60px;
+    height: 4px;
+}
+/*----------- -01- START OF BASIC INSATLLATION ----------*/
+/*----------- -02- HEADER SECTION ----------*/
+
+.header-section {
+    background: linear-gradient(to right, rgba(218, 68, 83, 0.8), rgba(137, 33, 107, 0.8)), url(../pics/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header-section img {
+    max-width: 50%
+}
+
+.header-section i {
+    font-size: 20px;
+    color: #FFF;
+}
+.main-nav
+{
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+nav {
+    padding-top: 20px;
+}
+.main-nav-scrolled {
+  padding: 5px;
+background: #fff;
+-webkit-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+-webkit-transition: all 0.5s ease;
+transition: all 0.5s ease;
+position: fixed;
+height: auto;
+width: 100%;
+z-index: 2;
+border-radius: 0;
+opacity: 0.9;
+}
+nav h3
+{
+color: grey;
+font-family: 'Lobster', cursive;
+font-size: 20px;
+margin-top: 12px;
+}
+nav .navbar-header .fa
+{
+    background: transparent;
+    color: grey;
+    font-size: 25px;
+}
+nav li
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size:14px; 
+    	transition: all 0.2s;
+
+}
+.navbar-default .navbar-nav > li > a:hover
+{
+	color: grey;
+	transition: all 0.2s;
+}
+.navbar-default .navbar-toggle:hover
+{
+    background: transparent;
+}
+.navbar-default .navbar-toggle:foucs
+{
+    background: transparent;
+}
+nav span
+{
+	background: rgba(124, 1, 82, 1);
+	padding: 10px;
+	color: #FFF;
+}
+nav .fa
+{
+	margin-left: -15px;
+}
+nav img
+{
+	padding-top: 6px;
+}
+.home-list
+{
+	padding-left: 124px;
+}
+.header-section:before {
+    background: url(../pics/dg.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.header-section h2 {
+    color: #FFF;
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+
+}
+.header-section span {
+    letter-spacing: 1px;
+}
+/*----------- -02- HEADER SECTION ----------*/
+/*----------- -03- SPEAKERS SECTION ----------*/
+.speakers-section .first-speakers p
+{
+    padding-bottom: 70px;
+}
+.speakers-section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: -2px;
+    margin-top: 10px;
+}
+.speakers-section h2
+{
+    color: #393333
+}
+.speakers-section a:hover
+{
+    text-decoration: none;
+}
+.speakers-section p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
+.img-box {
+    position: relative;
+}
+.btm-speakers p
+{
+    margin-bottom: -10px;
+}
+.overlay {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.tabs-content img {
+    opacity: 0.6;
+ }
+
+.img-box:hover .overlay {
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.img-box:hover ul li a {
+    animation-name: icons;
+    animation-duration: 1s;
+}
+
+@keyframes icons {
+    0% {
+        margin-top: 20px;
+    }
+}
+.member ul {
+    position: absolute;
+    margin-top: 10px;
+    top: 40%;
+    left: 35%;
+}
+
+.member ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #FFF;
+}
+.member a {
+    color: #FFF;
+    text-decoration:  none;
+    font-size: 10p;
+}
+/*----------- -03- SPEAKERS SECTION ----------*/
+/*----------- -04- EVENTS SECTION ----------*/
+
+.next-event {
+    background: #f2f2f2;
+    font-family: "Montserrat", sans-serif;
+}
+
+.next-event h2 {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.next-event p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.event-section .overlay
+{
+    width: 93%
+}
+.event-section .row
+{
+    padding-top: 2px;
+    padding-bottom: 22px
+}
+.event-section h2 {
+    font-weight: 900;
+    color: #FFF;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.next-event ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+.left-list li
+{
+ cursor: pointer;	
+}
+.event-section {
+    background: linear-gradient(rgba(37, 37, 37, 0.96), rgba(37, 37, 37, 0.96)), url(../pics/bg23.jpeg);
+    -webkit-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.06);
+    height: auto;
+    font-family: "Montserrat", sans-serif;
+
+}
+.event-section .overlay i {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #FFF;
+    font-size: 60px;
+}
+
+.event-section .overlay {
+    left: 100;
+}
+
+.event-section ul li {
+    color: #FFF;
+    font-weight: 200;
+    font-size: 18px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.run {
+    background: #595959;
+    margin: 20px;
+    width: 207px;
+    padding: 0px;
+}
+
+.bord {
+    content: "";
+    position: absolute;
+    top: 26px;
+    right: 0;
+    height: 110%;
+    width: 2px;
+    background: #595959;
+    padding: -25px 0px;
+}
+.bord2
+{
+ content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    height: 2px;
+    width: 90%;
+    margin: 0px 20px; 
+    background: #595959;
+    padding: -25px 0px;
+    display: none;
+}
+
+.right-event h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.right-event p {
+    font-weight: 300;
+}
+
+.tabs-content div:not(.tab-one) {
+    display: none;
+}
+/*----------- -04- EVENTS SECTION ----------*/
+/*----------- -05- SUBSCRIBE SECTION ----------*/
+
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #D94453, #89216B);
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+    -moz-box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 10px 15px 8px rgba(0, 0, 0, 0.04);
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subscribe-section i {
+    font-size: 150px;
+    color: #FFF;
+    padding-top: 30px;
+    padding-left: 40px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-section h2 {
+    font-weight: 900;
+    color: #252525;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.subscribe-section p {
+    font-weight: 400;
+    color: #252525;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.subscribe-section .row
+{
+    padding-bottom: 20px;
+}
+.rise-btn {
+    background: linear-gradient(to right, #D94453, #89216B);
+    background-position: center right;
+    border-radius: 50px;
+    color: #FFF;
+    margin-left: 20px;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.rise-btn-white
+{
+    background: #FFF;
+    background-position: center right;
+    border-radius: 50px;
+    color: #484848;
+    margin-left: 20px;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.rise-btn:hover
+{
+    background: linear-gradient(to right, #D94453, #89216B);
+    transform: scale(1.1);
+    color: #FFF;
+    transition: all 0.3s;
+}
+
+.rise-btn-o {
+    border-radius: 50px;
+    color: #252525;
+    border-color: #565656;
+    opacity: 0.7;
+    transition: all 0.3s;
+    -webkit-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.07);
+    box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.07);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #D94453, #89216B);
+    background-position: center;
+    border-radius: 50px;
+    border-color: transparent;
+    opacity: 1;
+    color: #FFF;
+    background-size: cover;
+    transition: all 0.3s;
+}
+/*----------- -05- SUBSCRIBE SECTION ----------*/
+/*----------- -06- SPONSORS SECTION ----------*/
+.sponsors-section
+{
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+.sponsors-section img {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    transition: all 0.3s;
+    padding-bottom: 55px;
+}
+.sponsors-section h1::after
+{
+    left: 33%;
+}
+.sponsors-section .row
+{
+    margin-bottom: -25px
+} 
+.first-line {
+    margin-top: 30px;
+}
+.sponsors-section img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+    transition: all 0.3s;
+}
+/*----------- -06- SPONSORS SECTION ----------*/
+/*----------- -07- TICKETS SECTION ----------*/
+
+.tickets-section .row div {
+    padding-bottom: 20px;
+}
+
+.tickets-section {
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.tickets-section .row
+{
+    padding-bottom: 40px;
+    margin-top: -15px;
+
+}
+.tickets-section .rise-btn {
+    width: 30%;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    -webkit-box-shadow: 1px 0px 5px 8px rgba(0, 0, 0, 0.03);
+    -moz-box-shadow: 1px 0px 5px 8px rgba(0, 0, 0, 0.03);
+    box-shadow: 1px 0px 5px 8px rgba(0, 0, 0, 0.03);
+
+}
+.tickets-section h1::after
+{
+    left: 28%
+}
+
+.tickets.section .rise-btn:hover
+{
+	    transform: scale(1.1);
+}
+.ticket1 .rise-btn {
+    background:rgba(237, 146, 3, 1);
+}
+
+.ticket1 h3 {
+    color: #ed9203;
+    font-size: 30px;
+}
+
+.ticket1 h2 {
+    color: #ed9203;
+}
+
+.ticket2 .rise-btn {
+    background: #c13333;
+}
+
+.ticket2 h3 {
+    color: #c13333;
+    font-size: 30px;
+}
+
+.ticket2 h2 {
+    color: #c13333;
+}
+
+.ticket3 {
+    transform: scale(1.05);
+    z-index: 1;
+    -webkit-box-shadow: 1px 0px 32px 11px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 1px 0px 32px 11px rgba(0, 0, 0, 0.06);
+    box-shadow: 1px 0px 32px 11px rgba(0, 0, 0, 0.06);
+}
+.ticket3 h4
+{
+	color: #fff;
+	font-size: 15px;
+	padding: 10px;
+	letter-spacing: 1px;
+}
+
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #D94453, #89216B);
+}
+
+.ticket3 p {
+    color: #FFF;
+}
+
+.ticket3 h3 {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.ticket3 h2 {
+    color: #D94453;
+}
+
+.greytop p {
+    opacity: 0.8;
+}
+
+.btm-ticket {
+    background: url(../pics/dots.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.tickets-section li {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    opacity: 0.8
+}
+
+.tickets-section ul {
+    padding-bottom: 14px;
+}
+
+.tickets-section h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600
+}
+
+.tickets-section .row {
+    padding-top: 30px;
+}
+
+.tickets-section .greytop {
+    background: #f3f3f3;
+    border-radius: 5px 5px 150px 150px;
+    padding: 20px;
+}
+
+.ticket3 .greytop {
+    background: linear-gradient(to right, #D94453, #89216B);
+}
+/*----------- -07- TICKETS SECTION ----------*/
+/*----------- -08- VIDEOS SECTION ----------*/
+
+.video-section {
+    background: linear-gradient(rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.8)), url(../pics/party.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.video-section .row
+{
+    padding-bottom: 27px;
+    margin-top: -5px;
+}
+.video-section h1:after {
+    left: 0;
+    background: #FFF;
+}
+
+.video-section h1 {
+    padding-bottom: 20px;
+    color: #FFF;
+    opacity: 1;
+}
+
+.video-section span {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.video-section img {
+    max-width: 100%;
+ }
+
+.video-section h2 {
+    color: #FFF;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+.video-section .rise-btn-white
+{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+.video-text {
+    background: -webkit-gradient(linear, center top, center bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 1)));
+    left: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+}
+.all-videos {
+    padding-top: 160px;
+}
+
+.all-videos i {
+    position: absolute;
+   top: 5px;
+right: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 35px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.all-videos div:hover i {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.hoverd {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+    z-index: 1;
+}
+/*----------- -08- VIDEOS SECTION ----------*/
+/*----------- -09- BLOG SECTION ----------*/
+
+.news-section {
+    background: #ececec;
+    font-family: "Poppins", sans-serif;
+}
+.news-section h1::after
+{
+    left: 37%
+}
+.news-section .container {
+  margin-bottom: -6px
+  }
+
+.nws {
+    -webkit-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    margin-bottom:30px;
+    background: #FFF;
+}
+
+.nws .ul1 h2 {
+    font-size: 16px;
+    position: absolute;
+    top: 7px;
+    left: 88px;
+    font-weight: 400;
+
+}
+
+.ul1 {
+    padding: 20px;
+}
+
+.nws .ul1 img {
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+.nws ul li {
+    display: inline-block;
+}
+
+.ul2 i {
+    color: #252525;
+    font-size: 15px
+}
+
+.ul2 {
+    position: absolute;
+    top: 35px;
+    right: 35px;
+}
+
+.btm-nws {
+    margin-top: -15px;
+}
+
+.btm-nws h2 {
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.btm-btm-nws {
+    margin-top: -20px;
+    padding: 20px;
+    background: #ececec;
+}
+
+.btm-nws .rise-btn {
+    margin-left: 0;
+}
+/*----------- -09- BLOG SECTION ----------*/
+/*----------- -10- COUNTER SECTION ----------*/
+
+.counter-section {
+    background: url(../pics/counter.png), #252525;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding:  90px 0;
+}
+ 
+/*----------- -10- COUNTER SECTION ----------*/
+/*----------- -11- GALLERY SECTION ----------*/
+
+.gallery-section .owl-dots
+{
+    padding-bottom: 20px;
+}
+.gallery-section .row {
+    padding-top: 30px;
+    margin-top:-30px;
+}
+.gallery-section h1::after
+{
+    left: 28%
+}
+.item .overlay {
+    width: 95%;
+    height: 86%;
+    top: 0;
+    left: 15px;
+}
+
+.right-pics .overlay {
+    width: 80%;
+    height: 71%;
+    top: 0;
+    left: 15px;
+}
+.right-img .overlay i
+{
+    font-size: 45px;
+    top: 40%;
+    left: 42%
+}
+.right-img .overlay
+{
+        width: 88%
+}
+.right-img div:hover .overlay {
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.left-img:hover .overlay {
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.item i {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #FFF;
+    font-size: 60px;
+}
+/*----------- -11- GALLERY SECTION ----------*/
+/*----------- -12- TESTMONIAL SECTION ----------*/
+
+.testmonial-section ul {
+    display: inline-block;
+}
+
+.testmonial-section img {
+    border-radius: 50%;
+    max-width: 35%
+}
+.testmonial-section .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -28px;
+}
+.testmonial-section h1::after
+{
+    left: 40%
+}
+.opin {
+    -webkit-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 36px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+
+.list1 h2 {
+    position: absolute;
+    top: 20px;
+    left: 105px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.opin ul li {
+    display: inline-block;
+}
+
+.list2 {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.opin p {
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.opin p:before {
+    content: "\f10d";
+    font-family: FontAwesome;
+    font-size: 50px;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    opacity: 0.08;
+}
+/*----------- -12- TESTMONIAL SECTION ----------*/
+/*----------- -13- CONTACT SECTION ----------*/
+
+.contact-section input,.contact-section textarea
+{
+padding: 10px;
+width: 70%;
+margin-bottom: 20px;
+opacity: 0.6;
+}
+.contact-section button 
+{
+    margin-bottom: 25px;
+}
+.success 
+{
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.footer
+{
+    background: #252525;
+    color: #FFF;
+        font-family: "Poppins",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}

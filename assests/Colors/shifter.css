@@ -1,0 +1,40 @@
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #bc4e9c, #f80759);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rise-btn {
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+    }
+    .rise-btn:hover
+{
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+.ticket3 h2 {
+    color: #bc4e9c;
+}
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+.ticket3 .greytop {
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+.header-section {
+    background: linear-gradient(to right, rgba(190, 75, 154, 0.8), rgba(245, 11, 92, 0.8)), url(../pics/header.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.owl-dot {
+    background: #bc4e9c;
+}
+.owl-dot.active {
+    background: #f80759;
+  }

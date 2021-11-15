@@ -1,0 +1,42 @@
+/*---------------- Dance to forget Color ---------------   */
+
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #FF4E50, #F9D423);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rise-btn {
+    background: linear-gradient(to right, #FF4E50, #F9D423);
+    }
+    .rise-btn:hover
+{
+    background: linear-gradient(to right, #FF4E50, #F9D423);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #FF4E50, #F9D423);
+}
+.ticket3 h2 {
+    color: #FF4E50;
+}
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #FF4E50, #F9D423);
+}
+.ticket3 .greytop {
+    background: linear-gradient(to right, #FF4E50, #F9D423);
+}
+.header-section {
+    background: linear-gradient(to right, rgba(255, 80, 79, 0.8), rgba(249, 211, 35, 0.8)), url(../pics/header.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.owl-dot {
+    background: #FF4E50;
+}
+.owl-dot.active {
+    background: #F9D423;
+  }

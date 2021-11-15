@@ -1,0 +1,42 @@
+/*---------------- Cosmic fusion Color ---------------   */
+
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #ff00cc, #333399);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rise-btn {
+    background: linear-gradient(to right, #ff00cc, #333399);
+    }
+    .rise-btn:hover
+{
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+.ticket3 h2 {
+    color: #ff00cc;
+}
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+.ticket3 .greytop {
+    background: linear-gradient(to right, #ff00cc, #333399);
+}
+.header-section {
+    background: linear-gradient(to right, rgba(249, 2, 202, 0.8), rgba(56, 50, 154, 0.8)), url(../pics/header.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.owl-dot {
+    background: #ff00cc;
+}
+.owl-dot.active {
+    background: #333399;
+  }

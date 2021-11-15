@@ -1,0 +1,183 @@
+/*-----Large Screen-----*/
+
+@media only screen and (max-width: 1200px) {
+   .header-section h2 {
+        font-size: 85px;
+    }
+    nav h3 {
+        padding: 10px;
+    }
+    nav {
+        padding-top: 3px;
+    }
+    .home-list {
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav > li {
+        float: none;
+    }
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in {
+        display: block !important;
+    }
+    .navbar {
+        margin-bottom: 0
+    }
+    .event-section .overlay {
+        width: 100%
+    }
+    .counter-section {
+        height: 120vh;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .counter-section .row div {
+        padding-bottom: 40px;
+    }
+    .speakers-section h2 {
+        font-size: 16px;
+    }
+    .speakers-section p {
+        font-size: 12px;
+    }
+    .member a {
+        font-size: 13px;
+    }
+    .member ul {
+        top: 34%;
+        left: 30%;
+    }
+}
+
+/*------Medium Screen (Tablet)----*/
+
+@media only screen and (max-width: 992px) {
+    .header-section h2 {
+        font-size: 87px;
+    }
+  .header-section:before {
+    background: none;
+}
+   .speakers-section .first-speakers p
+   {
+    padding-bottom: 0;
+   }
+    .subscribe-section {
+        text-align: center;
+        background: #FFF;
+
+    }
+    .right-event {
+        text-align: center
+    }
+    .right-event .overlay {
+        display: none;
+    }
+    .bord {
+        display: none;
+    }
+    .bord2 {
+        display: block;
+    }
+    .event-section ul {
+        display: inline-flex;
+    }
+    .member a {
+        font-size: 17px;
+    }
+    .member ul {
+        top: 40%;
+        left: 35%;
+    }
+    .testmonial-section .row > div {
+        padding-bottom: 20px;
+    }
+    .hoverd {
+        transform: scale(1);
+        transition: all 0.3s;
+        cursor: pointer;
+        z-index: 1;
+    }
+}
+
+/*------Small Tablet-------*/
+
+@media only screen and (max-width: 768px) {
+    .header-section h2 {
+        font-size: 80px;
+        padding-top: 220px;
+    }
+    .title-name h3 {
+        font-size: 65px;
+    }
+    .title-name {
+        padding-top: 12px;
+    }
+    .event-section ul {
+        display: inline-block;
+    }
+    .ticket3 {
+        transform: scale(1);
+    }
+    /*-------Mobile Screen-----*/
+    @media only screen and (max-width: 480px) {
+       .header-section h2 {
+        font-size: 40px;
+        padding-top: 263px;
+     }
+        .title-name h3 {
+            font-size: 45px;
+        }
+        .speakers-section h2 {
+            font-size: 14px;
+        }
+        .speakers-section p {
+            font-size: 10px;
+        }
+        .member a {
+            font-size: 13px;
+        }
+        .member ul {
+            left: 30%;
+            top: 35%;
+        }
+        .subscribe-section input {
+            margin-bottom: 20px;
+        }
+        .header-section::before {
+            position: absolute;
+            left: 0;
+            right: 0;
+            height: 113%;
+            width: 100%;
+        }
+    }

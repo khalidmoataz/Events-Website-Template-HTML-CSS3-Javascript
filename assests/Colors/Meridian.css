@@ -1,0 +1,42 @@
+/*---------------- Meridian Color ---------------   */
+
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #283c86, #45a247);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rise-btn {
+    background: linear-gradient(to right, #283c86, #45a247);
+    }
+    .rise-btn:hover
+{
+    background: linear-gradient(to right, #283c86, #45a247);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #283c86, #45a247);
+}
+.ticket3 h2 {
+    color: #283c86;
+}
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #283c86, #45a247);
+}
+.ticket3 .greytop {
+    background: linear-gradient(to right, #283c86, #45a247);
+}
+.header-section {
+    background: linear-gradient(to right, rgba(40, 60, 134, 0.8), rgba(68, 159, 73, 0.8)), url(../pics/header.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.owl-dot {
+    background: #283c86;
+}
+.owl-dot.active {
+    background: #45a247;
+  }

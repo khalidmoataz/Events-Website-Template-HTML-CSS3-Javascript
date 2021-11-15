@@ -1,0 +1,42 @@
+/*---------------- Cherry Color ---------------   */
+
+.subscribe-section {
+    
+    background: url(../pics/smoky.png), linear-gradient(to right, #EB3349, #F45C43);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rise-btn {
+    background: linear-gradient(to right, #EB3349, #F45C43);
+    }
+    .rise-btn:hover
+{
+    background: linear-gradient(to right, #EB3349, #F45C43);
+}
+
+.rise-btn-o:hover {
+    background: linear-gradient(to right, #EB3349, #F45C43);
+}
+.ticket3 h2 {
+    color: #EB3349;
+}
+.ticket3 .rise-btn {
+    background: linear-gradient(to right, #EB3349, #F45C43);
+}
+.ticket3 .greytop {
+    background: linear-gradient(to right, #EB3349, #F45C43);
+}
+.header-section {
+    background: linear-gradient(to right, rgba(235, 53, 73, 0.8), rgba(244, 90, 67, 0.8)), url(../pics/header.jpg);
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.owl-dot {
+    background: #EB3349;
+}
+.owl-dot.active {
+    background: #F45C43;
+  }
